@@ -1,0 +1,86 @@
+.Main {
+    width:40vw;
+    height:85vh;
+    margin: 3vw auto;
+    padding: 20px;
+    background-color:rgb(9, 90, 90);
+    box-shadow: 10px 10px gainsboro;
+}
+
+.popup {
+    background-color: beige;
+    color: orangered;
+    border: 1px solid gold;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: cursive;
+}
+
+.form {
+    margin-top:1vw;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    color: mediumvioletred;
+}
+
+label {
+    margin-top:1vw;
+    margin-bottom: 5px;
+    color: white;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+
+.er {
+    color: red;
+    margin-top: 2px;
+    font-size: 18px;
+}
+
+
+.back{
+    margin-left: -350px;
+    margin-top: -20px;
+}
+
+
+button {
+    width: 20vw; 
+    margin-top: 3vw;
+    padding: 15px; 
+    margin-left: 10vw;
+    background: linear-gradient(45deg, #00c220, #0066ff); 
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+    color: #fff;
+    border: none;
+    border-radius: 10px; 
+    font-size: 1.2em; 
+    transition: transform 0.3s, box-shadow 0.3s; 
+    cursor: pointer; 
+}
+
+
+button:hover {
+    transform: scale(1.05); 
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.5); 
+}
+
+
+button:active {
+    transform: scale(0.98); 
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); 
+}
+

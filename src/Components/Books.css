@@ -1,0 +1,78 @@
+body{
+    background-color: white;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1vw;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: beige;
+    width: 100%;
+    padding: 1vw 1vw;
+  }
+  
+  .nav h2{
+    font-size: 20px;
+    color: #110237;
+    margin-left:0vw;
+    font-family: Arial, Helvetica, sans-serif
+  }
+  
+  .input {
+    width: 30vw;
+    height: 3vh;
+    border: 1px solid #cccccc;
+    box-shadow: 5px 5px rgb(70, 70, 70);
+  }
+  
+  .btn {
+    height: 3vw;
+    margin-right:5vw;
+    padding: 0 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .contain {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 1vw;
+    margin-top: 2vw;
+  }
+  
+
+  
+  .bk h2 {
+    font-size: 1.5vw;
+    color: black;
+    margin-bottom: 1vw;
+    margin-left: 20px;
+  }
+  
+  .bk img {
+    width: 65%;
+    height: 65%; 
+    object-fit: cover;
+    border: 2px solid wheat; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+  }
+  
+  .bk p {
+    margin: 5px 0;
+    font-size: 1vw;
+    color: black;
+    margin-left: 20px;
+  
+  }
